@@ -8,12 +8,12 @@ body {
         width: 100%;
         height: 100%;
         // background-color: green;
-        scroll-snap-type: x mandatory; // mudar para y mandatory fica na vertical
-        overflow-x: scroll; // mudar o overflow-y fica vertical
-        display: flex; // comente para desabilitar se quiser na vertical
+        scroll-snap-type: y mandatory; // mudar para y mandatory fica na vertical
+        overflow-y: scroll; // mudar o overflow-y fica vertical
+        // display: flex; // comente para desabilitar se quiser na vertical
 
         section {
-            flex: none; // comentar para desabilitar na vertical
+            // flex: none; // comentar para desabilitar na vertical
             display: flex;
             justify-content: center;
             align-items: center;
